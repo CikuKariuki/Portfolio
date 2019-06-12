@@ -50,7 +50,7 @@ body{
     text-align: center;
     margin-top: 40px;
     font-family: 'Oleo Script', cursive;
-    font-size: 100px;
+    
 }
 #projects,#contact{
     text-align: center;
@@ -58,4 +58,11 @@ body{
 }
 .titles{
     font-size: 50px;
+}
+p{
+    font-size: 20px;
+}
+.imgheight{
+    height:200px;
+    padding: 20px;
 }
