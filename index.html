@@ -13,14 +13,17 @@
     <!-- Material Design Bootstrap -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.2/css/mdb.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Oleo+Script|Playfair+Display+SC&display=swap" rel="stylesheet">    <link rel="stylesheet" type="text/css" media="screen" href="css/style.css">
-    <script src="main.js"></script>
+    <script src="/js/main.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script>
+        new WOW().init();
+    </script>
 </head>
 
 <body>
      
-    <div id="coverpage">
-        <div class="covernav">
+    <div id="coverpage" class=" smooth-scroll">
+        <div class="covernav ">
         <a href="#"class="colornav">Home</a>
         <a href="#about" class="colornav" >About</a>
         <a href="#projects" class="colornav" >Projects</a>
@@ -46,15 +49,22 @@
     </div>
     <div id="projects">
         <a name="projects"></a>
-        <h2 class="titles">Projects</h2>
+        <h2 class="titles" style="color:white;">Projects</h2>
         <div class="row">
             <div class="col-md-4">
-                <a href="https://awwardswizy.herokuapp.com/"><img class="imgheight" src="/css/images/awwards.png" ></a>
-                <img class="imgheight" src="/css/images/blogger.png">
-                <img class="imgheight" src="/css/images/gallery.png">
-                <a href="https://mucie.herokuapp.com/"><img class="imgheight" src="/css/images/neighbourhood.png"></a>
-                <img class="imgheight" src="/css/images/quotes.png">
-            
+                <a href="https://awwardswizy.herokuapp.com/" target="_blank"><img class="animated fadeInUp" src="/css/images/awwards.png" style="height:400px; width:400px;"></a>
+            </div>
+            <div class="col-md-4">                
+               <a href="https://wise-minute.herokuapp.com/" target="_blank"><img class="animated fadeInUp" src="/css/images/pitcher.png" style="height:400px; width:400px;"></a>
+            </div>
+            <div class="col-md-4">
+                <a href="https://photogaleria.herokuapp.com/" target="_blank"><img class="wow fadeInUp" src="/css/images/gallery.png"></a>
+            </div>
+            <div class="col-md-4">
+                <a href="https://mucie.herokuapp.com/" target="_blank"><img class="wow fadeInUp" src="/css/images/neighbourhood.png"></a>
+            </div>
+            <div class="col-md-4">
+                <a href="https://cikukariuki.github.io/Quotes/" target="_blank"><img class="wow fadeInUp" src="/css/images/quotes.png"></a>
             </div>
         </div>
    
@@ -64,7 +74,7 @@
         <h2 class="titles">Contact</h2>
     </div>
     <div>
-        <img src="https://images.pexels.com/photos/18495/pexels-photo.jpg?auto=format%2Ccompress&cs=tinysrgb&dpr=1&w=900">
+        <img src="https://images.pexels.com/photos/18495/pexels-photo.jpg?auto=format%2Ccompress&cs=tinysrgb&dpr=1&w=500">
     </div>
 
 
