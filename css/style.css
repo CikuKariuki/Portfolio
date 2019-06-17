@@ -52,7 +52,7 @@ body{
     font-family: 'Oleo Script', cursive;
     
 }
-#projects,#contact{
+#contact{
     text-align: center;
     font-family: 'Oleo Script', cursive;
 }
@@ -63,7 +63,8 @@ p{
     font-size: 20px;
 }
 #projects{
+    text-align: center;
+    font-family: 'Oleo Script', cursive;
     background-image: url(https://images.pexels.com/photos/952670/pexels-photo-952670.jpeg?auto=format%2Ccompress&cs=tinysrgb&dpr=1&w=1000);
     background-attachment: fixed;
 }
-
