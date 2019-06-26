@@ -55,9 +55,12 @@ body{
 #contact{
     text-align: center;
     font-family: 'Oleo Script', cursive;
+    background-image: url(https://images.pexels.com/photos/952670/pexels-photo-952670.jpeg?auto=format%2Ccompress&cs=tinysrgb&dpr=1&w=1000);
+    background-attachment: fixed;
+    padding-top: 50px;
 }
 .titles{
-    font-size: 50px;
+    font-size: 70px;
 }
 p{
     font-size: 20px;
@@ -68,3 +71,33 @@ p{
     background-image: url(https://images.pexels.com/photos/952670/pexels-photo-952670.jpeg?auto=format%2Ccompress&cs=tinysrgb&dpr=1&w=1000);
     background-attachment: fixed;
 }
+#linkedin{
+    color: #fff;
+    margin-right: 110px;
+}
+#github{
+    color: #fff;
+    margin-right: 160px;
+}
+#myimage{
+    height: 500px;
+    width: 400px;
+    margin-left: 225px;
+    opacity: 0.9
+}
+#getintouch{
+    color:white;
+}
+/* #myimage {
+    position: fixed;
+    display: none;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 2;
+    
+  } */
