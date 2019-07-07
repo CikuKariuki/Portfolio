@@ -1,11 +1,12 @@
-<!DOCTYPE <!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Wanjiku's Portfolio</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta id="viewport" name="viewport" content="width=device-width, minimum-scale=0.7, maximum-scale=1.0, user-scalable=no">
+    <link rel="shortcut icon" href="images/title.ico" />
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
     <!-- Bootstrap core CSS -->
@@ -19,7 +20,7 @@
 
 <body>
 
-    <div id="coverpage" class="smooth-scroll list-unstyled">
+    <div id="coverpage" style="height:610px;" class="smooth-scroll list-unstyled">
         <div class="covernav">
             <a href="#" class="colornav">Home</a>
             <a href="#about" class="colornav">About</a>
@@ -40,34 +41,40 @@
         <a name="about"></a>
         <h2 class="titles">About Me</h2>
         <p class="animated fadeInLeft ">Hello, I am Wanjiku Kariuki. </p>
-        <p class="animated fadeInLeft delay-2s slow">I am a Fullstack developer based in Kenya</p>
-        <p class="animated fadeInLeft delay-5s slow">It all started with a love for tech. Take a tour through my
+        <p class="animated fadeInLeft delay-1s slow">I am a Fullstack developer based in Kenya</p>
+        <p class="animated fadeInLeft delay-3s slow">It all started with a love for tech. Take a tour through my
             projects.</p>
 
+    </div>
+    <div class="covernav">
+        <a href="#" class="colornav">Home</a>
+        <a href="#about" class="colornav">About</a>
+        <a href="#projects" class="colornav">Projects</a>
+        <a href="#contact" class="colornav">Contact</a>
     </div>
     <div id="projects">
         <a name="projects"></a>
         <h2 class="titles" style="color:white;margin-top: 40px;">Projects</h2>
         <div class="row">
             <div class="col-md-9">
-                <a href="https://awwardswizy.herokuapp.com/" target="_blank"><img class="wow fadeInUp slower"
-                        src="/images/awwards.png" style="height:600px; width:1000px;"></a>
+                <a href="https://awwardswizy.herokuapp.com/" target="_blank"><img class="wow fadeInUp slower "
+                        src="./images/awwards.png" style="height:auto; width:100%;"></a>
             </div>
             <div class="col-md-2">
                 <a href="https://wise-minute.herokuapp.com/" target="_blank"><img class="wow slideInRight slower"
-                        src="/images/pitcher.png" style="height:600px; width:500px;"></a>
+                        src="./images/pitcher.png" style="height:600px; width:500px;"></a>
             </div>
             <div class="col-md-6">
                 <a href="https://photogaleria.herokuapp.com/" target="_blank"><img class="wow fadeInUp slower"
-                        src="/images/gallery.png" style="height:500px;width:700px;"></a>
+                        src="./images/gallery.png" style="height:500px;width:700px;"></a>
             </div>
             <div class="col-md-6">
                 <a href="https://mucie.herokuapp.com/" target="_blank"><img class="wow fadeInRight slower"
-                        src="/images/neighbourhood.png" style="height:500px;width:700px;"></a>
+                        src="./images/neighbourhood.png" style="height:500px;width:700px;"></a>
             </div>
             <div class="col-md-4">
                 <a href="https://cikukariuki.github.io/Quotes/" target="_blank"><img class="wow fadeInUp slower"
-                        src="/images/quotes.png" style="height:500px; width:1000px; margin-left:150px;"></a>
+                        src="./images/quotes.png" style="height:500px; width:1000px; margin-left:150px;"></a>
             </div>
         </div>
 
@@ -81,16 +88,15 @@
                 <div id="getintouch">
                     <h2 class="titles panel panel-default">Get in Touch</h2>
                     <h4>Email: wanjikukariuki03@gmail.com</h4>
-                    <h4><a id="linkedin" href="linkedin.com/in/phyllis-kariuki-382663122/  ">LinkedIn: Phyllis Kariuki
-                        </a></h4>
-                    <h4><a id="github" href="https://github.com/CikuKariuki">Github: CikuKariuki</a></h4>
+                    <a href="https://linkedin.com/in/phyllis-kariuki-382663122/  " target="_blank"><h4 id="linkedin">LinkedIn: Phyllis Kariuki</h4></a>
+                    <h4><a id="github" href="https://github.com/CikuKariuki" target="_blank">Github: CikuKariuki</a></h4>
                     <h4></h4>
                 </div>
 
             </div>
 
             <div class="col-md-6">
-                <img id="myimage" class="wow fadeIn slower" src="/images/wanjiku.jpg">
+                <img id="myimage" class="wow fadeInDown slower" src="./images/wanjiku.jpg">
 
             </div>
         </div>
